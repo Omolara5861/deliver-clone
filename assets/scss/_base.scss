@@ -1,0 +1,13 @@
+// Custom overrides
+body {
+  color: $neutral--600;
+  font-family: Metropolis, sans-serif;
+  src: url('../fonts/Metropolis-Regular.otf') format('otf');
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.667em;
+}
+
+a {
+  text-decoration: none;
+}

@@ -4,14 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Deliver X - Page Not Found</title>
+ <link href="https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/620416c12c050b2c6989740d_favicon-delivery-template.svg" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/620416c80160c57e48144c4a_webclip-delivery-template.svg" rel="apple-touch-icon" />
   <!-- Bootstrap CSS -->
   <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     integrity="sha384-..."
-    crossorigin="anonymous" />
+    crossorigin="anonymous"
+  />
+
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="assets/scss/main.css" />
+  <link rel="stylesheet" href="assets/scss/styles.css" />
 </head>
 <body>
   <!-- Navbar -->
@@ -28,14 +32,19 @@
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
-        <!-- <span class="navbar-toggler-icon"></span> -->
-      </button>
+      ></button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -44,77 +53,78 @@
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-            >Pages</a>
+            >
+              Pages
+            </a>
             <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
               <li><a class="dropdown-item" href="#">404 Not Found</a></li>
               <li><a class="dropdown-item" href="#">Password Protected</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Cart(0)</a></li>
-          <li class="nav-item"><a class="button-secondary small ms-3" href="#">Download app</a></li>
-          <li class="nav-item"><a class="button-primary small ms-3" href="#">Register</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cart(0)</a>
+          </li>
+          <li class="nav-item">
+            <a class="button-secondary small ms-3" href="#">Download app</a>
+          </li>
+          <li class="nav-item">
+            <a class="button-primary small ms-3" href="#">Register</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- 404 Hero Section -->
-<main class="hero not-found">
-      <!-- Left column: content -->
-      <div class="left-column container">
-        <div class="grid-con">
-
-          <div class="not-found-content w-100 position-relative d-flex flex-column">
-            <!-- Big 404 behind text -->
-            <div class="number-404 position-absolute">404</div>
-            <div class="text-block position-relative">
-              <h1>Page not found</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore <span class="text-nowrap">magna aliqua.</span>
-              </p>
-              <div class="btn-con">
-                <a href="/home" class=" button-primary">Go back home</a>
-              </div>
+  <main class="hero not-found">
+    <div class="container left-column">
+      <div class="grid-con">
+        <div class="not-found-content w-100 position-relative d-flex flex-column">
+          <div class="number-404 position-absolute">404</div>
+          <div class="text-block position-relative">
+            <h1>Page not found</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore <span class="text-nowrap">magna aliqua.</span>
+            </p>
+            <div class="btn-con">
+              <a href="/home" class="button-primary">Go back home</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Right column: image -->
-      <div class="right-column">
-          <img 
-            src="https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg"
-            srcset="
-              https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-500.jpeg 500w,
-              https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-800.jpeg 800w,
-              https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-1080.jpeg 1080w,
-              https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg 1262w
-            "
-            sizes="(max-width: 991px) 100vw, 45vw"
-            alt="Not Found - Deliver X Webflow Template"
-            class="img-fluid object-fit-cover"
-          >
-      </div>
     </div>
-</main>
+
+    <div class="right-column">
+      <img
+        class="img-fluid object-fit-cover"
+        src="https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg"
+        srcset="
+          https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-500.jpeg 500w,
+          https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-800.jpeg 800w,
+          https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template-p-1080.jpeg 1080w,
+          https://cdn.prod.website-files.com/61fd4a65725a5325e9bb25c2/62030f5f41cceb4ffdb98e84_image-not-found-delivery-template.jpeg 1262w
+        "
+        sizes="(max-width: 991px) 100vw, 45vw"
+        alt="Not Found - Deliver X Webflow Template"
+      />
+    </div>
+  </main>
 
   <!-- Footer -->
   <footer class="bg-white border-top">
     <div class="container">
-     <section class="download-section">
-  <div>
-    <div class="d-flex flex-lg-row flex-column">
-      <!-- Left column -->
-      <div class="col-lg-6 col-md-12">
-        <div class="logo d-flex align-items-center mb-4">
-          <img src="assets/images/logo.svg" alt="Deliver X Logo">
-        </div>
-        <p class="mb-lg-0 mb-md-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing <br class="d-md-block d-none"> elit sed do eiusmod tempor incididunt ut.
-        </p>
-      </div>
-      <!-- Right column -->
-      <div class="col-lg-6 col-md-12">
+      <section class="download-section">
+        <div class="d-flex flex-lg-row flex-column">
+          <div class="col-lg-6 col-md-12">
+            <div class="logo d-flex align-items-center mb-4">
+              <img src="assets/images/logo.svg" alt="Deliver X Logo" />
+            </div>
+            <p class="mb-lg-0 mb-md-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br class="d-md-block d-none" /> elit sed do eiusmod tempor incididunt ut.
+            </p>
+          </div>
+            <div class="col-lg-6 col-md-12">
         <div class="download-buttons d-flex flex-md-row flex-column justify-content-lg-end justify-content-start gap-4">
           <a href="#" class="button-primary">
             <!-- Apple icon -->
@@ -161,107 +171,99 @@
           </a>
         </div>
       </div>
-    </div>
-  </div>
-</section>
- <section>
-    <div class="row middle">
-      <!-- Menu -->
-      <div class="col-md-3 mb-5 mb-md-0">
-        <h5 class="footer-title">Menu</h5>
-        <div class="row">
-          <div class="col-6">
+        </div>
+      </section>
+
+      <section>
+        <div class="row middle">
+          <!-- Menu -->
+          <div class="col-md-3 mb-5 mb-md-0">
+            <h5 class="footer-title">Menu</h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#" class="footer-link">Home</a></li>
+                  <li><a href="#" class="footer-link">About</a></li>
+                  <li><a href="#" class="footer-link">Contact</a></li>
+                  <li><a href="#" class="footer-link">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#" class="footer-link">Plans</a></li>
+                  <li><a href="#" class="footer-link">Plan single</a></li>
+                  <li><a href="#" class="footer-link">Register</a></li>
+                  <li><a href="#" class="footer-link text-muted">Blog posts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Utility pages -->
+          <div class="col-md-3 mb-5 mb-md-0">
+            <h5 class="footer-title">Utility pages</h5>
             <ul class="list-unstyled mb-0">
-              <li><a href="#" class="footer-link">Home</a></li>
-              <li><a href="#" class="footer-link">About</a></li>
-              <li><a href="#" class="footer-link">Contact</a></li>
-              <li><a href="#" class="footer-link">Blog</a></li>
+              <li><a href="#" class="footer-link">Start here</a></li>
+              <li><a href="#" class="footer-link">Styleguide</a></li>
+              <li><a href="#" class="footer-link">Password protected</a></li>
+              <li><a href="#" class="footer-link">404 Not found</a></li>
+              <li><a href="#" class="footer-link">Licenses</a></li>
+              <li><a href="#" class="footer-link">Changelog</a></li>
+              <li><a href="#" class="footer-more">Browse More Templates</a></li>
             </ul>
           </div>
-          <div class="col-6">
-            <ul class="list-unstyled mb-0">
-              <li><a href="#" class="footer-link">Plans</a></li>
-              <li><a href="#" class="footer-link">Plan single</a></li>
-              <li><a href="#" class="footer-link">Register</a></li>
-              <li><a href="#" class="footer-link text-muted">Blog posts</a></li>
-            </ul>
+
+          <!-- Available in -->
+          <div class="col-md-6">
+            <h5 class="footer-title">Available in</h5>
+            <div class="row gy-4">
+              <div class="col-6 d-flex align-items-center">
+                <div class="location-icon me-3">
+                  <img src="assets/images/sf-icon.svg" alt="San Francisco" />
+                </div>
+                <h6 class="mb-0"><strong>San Francisco, CA</strong></h6>
+              </div>
+              <div class="col-6 d-flex align-items-center">
+                <div class="location-icon me-3">
+                  <img src="assets/images/ny-icon.svg" alt="New York" />
+                </div>
+                <h6 class="mb-0"><strong>New York, NY</strong></h6>
+              </div>
+              <div class="col-6 d-flex align-items-center">
+                <div class="location-icon me-3">
+                  <img src="assets/images/la-icon.svg" alt="Los Angeles" />
+                </div>
+                <h6 class="mb-0"><strong>Los Angeles, CA</strong></h6>
+              </div>
+              <div class="col-6 d-flex align-items-center">
+                <div class="location-icon me-3">
+                  <img src="assets/images/seattle-icon.svg" alt="Seattle" />
+                </div>
+                <h6 class="mb-0"><strong>Seattle, WA</strong></h6>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Utility pages -->
-      <div class="col-md-3 mb-5 mb-md-0">
-        <h5 class="footer-title">Utility pages</h5>
-        <ul class="list-unstyled mb-0">
-          <li><a href="#" class="footer-link">Start here</a></li>
-          <li><a href="#" class="footer-link">Styleguide</a></li>
-          <li><a href="#" class="footer-link">Password protected</a></li>
-          <li><a href="#" class="footer-link">404 Not found</a></li>
-          <li><a href="#" class="footer-link">Licenses</a></li>
-          <li><a href="#" class="footer-link">Changelog</a></li>
-          <li>
-            <a href="#" class="footer-more">
-              Browse More Templates
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Available in -->
-      <div class="col-md-6">
-        <h5 class="footer-title">Available in</h5>
-        <div class="row gy-4">
-          <div class="col-6 d-flex align-items-center">
-            <div class="location-icon me-3">
-              <img src="assets/images/sf-icon.svg" alt="San Francisco">
-            </div>
-            <h6 class="mb-0"><strong>San Francisco, CA</strong></h6>
-          </div>
-          <div class="col-6 d-flex align-items-center">
-            <div class="location-icon me-3">
-              <img src="assets/images/ny-icon.svg" alt="New York">
-            </div>
-            <h6 class="mb-0"><strong>New York, NY</strong></h6>
-          </div>
-          <div class="col-6 d-flex align-items-center">
-            <div class="location-icon me-3">
-              <img src="assets/images/la-icon.svg" alt="Los Angeles">
-            </div>
-            <h6 class="mb-0"><strong>Los Angeles, CA</strong></h6>
-          </div>
-          <div class="col-6 d-flex align-items-center">
-            <div class="location-icon me-3">
-              <img src="assets/images/seattle-icon.svg" alt="Seattle">
-            </div>
-            <h6 class="mb-0"><strong>Seattle, WA</strong></h6>
+        <!-- Bottom copyright -->
+        <div class="row copyright">
+          <div class="col text-center">
+            <p class="mb-0 fw-normal">
+              Copyright &copy; Deliver X | Designed by <a href="#" class="text-brand fw-semibold text-decoration-none">BRIX Templates</a> – Powered by <a href="#" class="text-brand fw-semibold text-decoration-none">Webflow</a>
+            </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-    <!-- Bottom copyright -->
-    <div class="row copyright">
-      <div class="col text-center">
-        <p class="mb-0 fw-normal">
-         Copyright  &copy; Deliver X | Designed by
-          <a href="#" class="text-brand fw-semibold text-decoration-none">BRIX Templates</a>
-          – Powered by
-          <a href="#" class="text-brand fw-semibold text-decoration-none">Webflow</a>
-        </p>
-      </div>
-    </div>
-  </section>
-</div>
   </footer>
 
-  <!-- Bootstrap Bundle JS + Popper -->
+  <!-- Scripts -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-..."
     crossorigin="anonymous"
   ></script>
-  <!-- GSAP Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-  <!-- Animation Logic -->
   <script src="assets/js/animations.js"></script>
 </body>
 </html>
